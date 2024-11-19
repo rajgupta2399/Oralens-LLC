@@ -1,5 +1,4 @@
 "use client";
-import LearningTable from "@/components/LearningTable";
 import Progress from "@/components/Progress";
 import {
   CrownOutlined,
@@ -7,6 +6,7 @@ import {
   HddOutlined,
 } from "@ant-design/icons";
 import { Button, Card, Col, Flex, Rate, Row, Space, Typography } from "antd";
+import UserTable from "@/components/UserTable";
 const { Title } = Typography;
 
 export default function Home() {
@@ -37,7 +37,7 @@ export default function Home() {
                 </div>
                 <div>
                   <Title level={4} style={{ marginBottom: 0 }}>
-                  5.4L+
+                    5.4L+
                   </Title>
                   <Typography>Dental Fillings</Typography>
                 </div>
@@ -52,7 +52,7 @@ export default function Home() {
                 </div>
                 <div>
                   <Title level={4} style={{ marginBottom: 0 }}>
-                  35,000+
+                    35,000+
                   </Title>
                   <Typography>Ortho cases</Typography>
                 </div>
@@ -60,7 +60,7 @@ export default function Home() {
             </Card>
           </Col>
         </Row>
-        <LearningTable />
+        <UserTable />
       </Col>
       <Col span={7}>
         <Progress />

@@ -1,7 +1,7 @@
 import { Space, Table, Tag } from "antd";
 import React from "react";
 
-function LearningTable() {
+function UserTable() {
   const columns = [
     {
       title: "Patient name",
@@ -100,4 +100,4 @@ function LearningTable() {
   return <Table className="mt-4" columns={columns} dataSource={data} />;
 }
 
-export default LearningTable;
+export default UserTable;
