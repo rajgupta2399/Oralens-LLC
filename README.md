@@ -4,7 +4,16 @@ This project is a healthcare oral dashboard where users can register their detai
 
 ## Getting Started
 
-First, run the development server:
+First, Install the node moduule in the directory
+
+```bash
+    cd Oralens-LLC
+```
+```bash
+    npm i
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
